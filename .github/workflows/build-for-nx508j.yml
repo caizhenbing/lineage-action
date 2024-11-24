@@ -42,7 +42,7 @@ jobs:
           mkdir -p device/xiaomi kernel/xiaomi vendor/xiaomi
           git clone https://github.com/LineageOS/android_device_xiaomi_haydn -b staging/lineage-18.1 device/xiaomi/haydn
           git clone https://github.com/LineageOS/android_vendor_lineage -b staging/lineage-18.1 vendor/xiaomi/haydn
-          git clone https://github.com/caizhenbing/android_kernel_xiaomi_haydn -b staging/lineage-18.1 kernel/xiaoimi/msm8450
+          git clone https://github.com/caizhenbing/android_kernel_xiaomi_haydn -b staging/lineage-18.1 kernel/xiaoimi/msm8350
           git clone https://github.com/LineageOS/android_hardware_sony_timekeep -b lineage-18.1 hardware/sony/timekeep
           source build/envsetup.sh
           lunch lineage_haydn-userdebug
